@@ -218,12 +218,6 @@ header.masthead .intro-text .intro-heading {
   }
 }
 
-.service-heading {
-  margin: 25px;
-  padding: 10px;
-  text-transform: none;
-}
-
 #events .event-item .event-link {
   position: relative;
   display: block;
@@ -290,10 +284,10 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
-@media (min-width: 767px) {
-  #things-to-do .event-item {
-    margin: 0 0 30px;
-  }
+.events-heading {
+  margin: 25px;
+  padding: 10px;
+  text-transform: none;
 }
 
 .event-modal .modal-dialog {
@@ -370,6 +364,44 @@ header.masthead .intro-text .intro-heading {
   -webkit-transform: rotate(90deg);
   transform: rotate(90deg);
   background-color: #212529;
+}
+
+#things-to-do .things-to-do-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+
+#things-to-do .things-to-do-item .things-to-do-link {
+  position: relative;
+  display: block;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+#things-to-do .things-to-do-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 25px;
+  text-align: center;
+  background-color: #fff;
+}
+
+#things-to-do .things-to-do-item .portfolio-caption h4 {
+  margin: 0;
+  text-transform: none;
+}
+
+#things-to-do .things-to-do-item .portfolio-caption p {
+  font-size: 16px;
+  font-style: italic;
+  margin: 0;
+  font-family: 'Droid Serif', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+@media (min-width: 767px) {
+  #things-to-do .things-to-do-item {
+    margin: 0 0 30px;
+  }
 }
 
 .timeline {
