@@ -227,40 +227,6 @@ header.masthead .intro-text .intro-heading {
   cursor: pointer;
 }
 
-#events .event-item .event-link .event-hover {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  -webkit-transition: all ease 0.5s;
-  transition: all ease 0.5s;
-  opacity: 0;
-  background: rgba(189, 47, 71, 0.896078);
-}
-
-#events .event-item .event-link .event-hover:hover {
-  opacity: 1;
-}
-
-#events .event-item .event-link .event-hover .event-hover-content {
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-  height: 20px;
-  margin-top: -12px;
-  text-align: center;
-  color: white;
-}
-
-#events .event-item .event-link .event-hover .event-hover-content i {
-  margin-top: -12px;
-}
-
-#events .event-item .event-link .event-hover .event-hover-content h3,
-#events .event-item .event-link .event-hover .event-hover-content h4 {
-  margin: 0;
-}
-
 #events .event-item .portfolio-caption {
   max-width: 400px;
   margin: 0 auto;
@@ -377,6 +343,7 @@ header.masthead .intro-text .intro-heading {
   display: block;
   max-width: 400px;
   margin: 0 auto;
+  cursor: pointer;
 }
 
 #things-to-do .things-to-do-item .things-to-do-caption {
