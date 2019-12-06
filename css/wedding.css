@@ -30,14 +30,13 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  padding-top: 70px;
   overflow: hidden;
 }
 
 .page-section h2.section-heading {
   font-size: 40px;
   margin-top: 0;
-  margin-bottom: 15px;
 }
 
 .page-section h3.section-subheading {
