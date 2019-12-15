@@ -79,75 +79,70 @@
           <h3 class="section-subheading text-muted">for our wedding</h3>
         </div>
       </div>
-        <div class="container-fluid">
-          <div class="row text-center">
-            <div class="m-1 col">
-              <div class="row text-center">
-                <!--Grah Shanti/Vidhis-->
-                <div class="m-1 col">
-                  <div>
-                    <a class="event-link" data-toggle="modal" href="#eventModal1">
-                      <span class="fa-stack fa-4x">
-                        <img class=" img-fluid rounded-circle" src="img/events/grah-shanti.jpg" alt="">
-                      </span>
-                      <h4 class="events-heading">Vidhi</h4>
-                    </a>
-                    <p class="text-primary font-weight-bold">June 27, 2020 8:00 AM</p>
-                  </div>
-                </div>
-                <!-- Sangeet/Garba -->
-                <div class="m-1 col">
-                  <div>
-                    <a class="event-link" data-toggle="modal" href="#eventModal2">
-                      <span class="fa-stack fa-4x">
-                        <img class=" img-fluid rounded-circle" src="img/events/sangeet.jpg" alt="">
-                      </span>
-                      <h4 class="events-heading">Sangeet/Garba</h4>
-                    </a>
-                    <p class="text-primary font-weight-bold">June 27, 2020 6:00 PM</p>
-                  </div>
-                </div>
-              </div>
-              <p class="text-muted">Ambaji USA - Shree Shakti Mandir</p>
-              <a href="https://maps.google.com/?q=Ambaji USA - Shree Shakti Mandir &t=m" target="_blank">
-                <p class="text-muted">1450 Huie Rd, Lake City, GA 30260</p>
-                <i class="fas fa-map-marked-alt"></i>
-              </a>
-            </div>
-            <div class="m-1 col">
-              <div class="row text-center">
-                <!--Wedding-->
-                <div class="m-1 col">
-                  <div>
-                    <a class="event-link" data-toggle="modal" href="#eventModal3">
-                      <span class="fa-stack fa-4x">
-                        <img class=" img-fluid rounded-circle" src="img/events/marriage-2.jpg" alt="">
-                      </span>
-                      <h4 class="events-heading">Wedding</h4>
-                    </a>
-                    <p class="text-primary font-weight-bold">June 28, 2020 10:00 AM</p>
-                  </div>
-                </div>
-                <!-- Reception -->
-                <div class="m-1 col">
-                  <div>
-                    <a class="event-link" data-toggle="modal" href="#eventModal4">
-                      <span class="fa-stack fa-4x">
-                        <img class=" img-fluid rounded-circle" src="img/events/reception.jpg" alt="">
-                      </span>
-                      <h4 class="events-heading">Reception</h4>
-                    </a>
-                    <p class="text-primary font-weight-bold">June 28, 2020 6:00 PM</p>
-                  </div>
-                </div>
-              </div>
-              <p class="text-muted">Decatur Conference Center</p>
-              <a href="https://maps.google.com/?q=Decatur Conferance Center Atlanta &t=m" target="_blank">
-                <p class="text-muted">130 Clairemont Ave, Decatur, GA 30030</p>
-                <i class="fas fa-map-marked-alt"></i>
-              </a>
-            </div>
+
+      <div class="container text-center" id="event-form">
+        <form>
+          <div class="form-group">
+            <input class="form-control" id="eventCode" placeholder="Enter Code">
+            <small id="eventHelp" class="form-text text-muted">Events are private. Please enter the code you received on your 'Save The Date' invitation.</small>
           </div>
+          <button class="btn btn-primary" onclick="showEvents(event)">Submit</button>
+        </form>
+      </div>
+
+      <div class="row text-center" id="wedding-events">
+        <!--Grah Shanti/Vidhis-->
+        <div class="col-md-3 custom-event" id="grah-shanti">
+          <a class="event-link" data-toggle="modal" href="#eventModal1">
+              <span class="fa-stack fa-4x">            
+                  <img class=" img-fluid rounded-circle" src="img/events/grah-shanti.jpg" alt="">
+                </span>
+
+              <h4 class="events-heading">Grah Shanti</h4>
+              <p class="text-primary font-weight-bold">June 28, 2020 8:00 AM</p>
+              <p class="text-muted">Shree Shakti Mandir</p>
+              <p class="text-muted">1450 Huie Rd, Lake City, GA 30260</p>
+          </a>
+        </div>
+
+        <!-- Sangeet/Garba -->
+        <div class="col-md-3 custom-event" id="sangeet">
+          <a class="event-link" data-toggle="modal" href="#eventModal2">
+              <span class="fa-stack fa-4x">            
+                  <img class=" img-fluid rounded-circle" src="img/events/sangeet.jpg" alt="">
+              </span>
+              <h4 class="events-heading">Sangeet</h4>
+              <p class="text-primary font-weight-bold">June 27, 2020 6:00 PM</p>
+              <p class="text-muted">Shree Shakti Mandir</p>
+              <p class="text-muted">1450 Huie Rd, Lake City, GA 30260</p>
+          </a>
+        </div>
+
+        <!-- Wedding -->
+        <div class="col-md-3 custom-event" id="wedding">
+          <a class="event-link" data-toggle="modal" href="#eventModal3">
+              <span class="fa-stack fa-4x">            
+                  <img class=" img-fluid rounded-circle" src="img/events/marriage-2.jpg" alt="">
+              </span>
+              <h4 class="events-heading">Lagna</h4>
+              <p class="text-primary font-weight-bold">June 28, 2020 10:30 AM</p>
+              <p class="text-muted">Decatur Conference Center</p>
+              <p class="text-muted">130 Clairemont Ave, Decatur, GA 30030</p>      
+          </a>
+        </div>
+
+        <!-- Reception-->
+        <div class="col-md-3 custom-event" id="reception">
+          <a class="event-link" data-toggle="modal" href="#eventModal4">
+              <span class="fa-stack fa-4x">            
+                  <img class=" img-fluid rounded-circle" src="img/events/reception.jpg" alt="">
+              </span>
+              <h4 class="events-heading">Reception</h4>
+              <p class="text-primary font-weight-bold">June 28, 2020 6:00 PM</p>
+              <p class="text-muted">Decatur Conference Center</p>
+              <p class="text-muted">130 Clairemont Ave, Decatur, GA 30030</p>      
+          </a>
+        </div>
       </div>
     </div>
   </section>
@@ -494,7 +489,7 @@
 
   <!-- Contact form JavaScript -->
   <script src="js/jqBootstrapValidation.js"></script>
-  <!-- <script src="js/contact_me.js"></script> -->
+  <script src="js/events.js"></script>
 
   <!-- Custom scripts for this template -->
   <script src="js/wedding.min.js"></script>

@@ -250,6 +250,10 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+#events div#wedding-events {
+  visibility: hidden;
+}
+
 .events-heading {
   margin: 25px;
   padding: 10px;
