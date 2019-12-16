@@ -1,5 +1,4 @@
 function showEvents(e){
-    e.preventDefault();
     var code = document.getElementById("eventCode").value;
   
     if(code.toUpperCase()=== 'X'){ 
@@ -24,6 +23,7 @@ function showEvents(e){
         .addClass('col-md-12');    
         document.getElementById("wedding-events").style.visibility = "visible"
     }
+    e.preventDefault();
   }
   
   
