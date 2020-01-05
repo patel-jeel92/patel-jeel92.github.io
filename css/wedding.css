@@ -175,6 +175,8 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 header.masthead .intro-text {
@@ -198,7 +200,7 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 692px) {
   header.masthead .intro-text {
-    padding-top: 500px;
+    padding-top: 470px;
     padding-bottom: 70px;
   }
   header.masthead .intro-text .intro-lead-in {

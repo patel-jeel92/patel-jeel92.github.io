@@ -6,7 +6,11 @@ header.masthead {
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
+  -moz-background-size: cover;
+  -o-background-size: cover;
   background-size: cover;
+  width: 100vw;
+  height: 100vh;
 
   .intro-text {
      padding-bottom: 20px;
@@ -28,7 +32,7 @@ header.masthead {
 @media(min-width:692px) {
   header.masthead {
     .intro-text {
-      padding-top: 500px;
+      padding-top: 470px;
       padding-bottom: 70px;
       .intro-lead-in {
         font-size: 100px;
