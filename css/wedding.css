@@ -175,10 +175,14 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100vw;
+  height: 100vh;
 }
 
 header.masthead .intro-text {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
 
 header.masthead .intro-text .intro-lead-in {

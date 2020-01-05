@@ -7,9 +7,13 @@ header.masthead {
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100vw;
+  height: 100vh;
 
   .intro-text {
-     padding-bottom: 20px;
+     padding-bottom: 40px;
     .intro-lead-in {
       font-size: 50px;
       margin-top: 30px;
