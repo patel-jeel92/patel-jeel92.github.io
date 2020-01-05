@@ -93,7 +93,7 @@ img::-moz-selection {
 
 .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
   background-color: rgba(158, 39, 59, 0.996078) !important;
-  border-color: rgba(158, 39, 59, 0.996078) !important;
+  border-color: #d9b700 !important;
   color: white;
 }
 
