@@ -50,3 +50,46 @@ header.masthead {
     }
   }
 }
+
+@media only screen and (max-device-width: 480px) {
+  /* styles for mobile browsers smaller than 480px; (iPhone) */
+  header.masthead {
+    .intro-text {
+      padding-top: 400px;
+      padding-bottom: 20px;
+      .intro-lead-in {
+        font-size: 45px;
+        line-height: 20px;
+        font-family: 'Tangerine';
+        padding-top: 50px;
+      }
+      .intro-heading {
+        font-size: 15px;
+        font-weight: 70;
+        line-height: 50px;
+        margin-bottom: 15px;
+        @include heading-font;
+      }
+    }
+  }
+}
+@media only screen and (device-width: 768px) {
+  /* default iPad screens */
+  header.masthead {
+    .intro-text {
+      padding-top: 750px;
+      padding-bottom: 20px;
+      .intro-lead-in {
+        font-size: 90px;
+        font-family: 'Tangerine';
+      }
+      .intro-heading {
+        font-size: 25px;
+        font-weight: 70;
+        line-height: 50px;
+        margin-bottom: 15px;
+        @include heading-font;
+      }
+    }
+  }
+}
