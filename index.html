@@ -83,11 +83,13 @@
       <div class="container text-center" id="event-form">
         <form>
           <div class="form-group">
-            <!-- <input type="text" class="form-control" id="eventCode" placeholder="Enter Code" autocomplete="false" required> -->
+            <input type="text" class="form-control" id="eventCode" placeholder="Enter Code" autocomplete="false"
+              required>
 
-            <large id="eventHelp" class="form-text text-muted">Details will be available soon. Please check back at a later time!</large>
+            <large id="eventHelp" class="form-text text-muted">Details will be available soon. Please check back at a
+              later time!</large>
           </div>
-          <!-- <button type="button" class="btn btn-primary" onclick="showEvents(event)">Submit</button> -->
+          <button type="button" class="btn btn-primary" onclick="showEvents(event)">Submit</button>
         </form>
       </div>
 
@@ -103,9 +105,9 @@
           </a>
           <p class="text-primary font-weight-bold">June 28, 2020 8:00 AM</p>
           <p class="text-muted">Shree Shakti Mandir</p>
-          <a href="https://maps.google.com/?q=Ambaji USA - Shree Shakti Mandir &t=m" target="_blank">	
-            <p class="text-muted">1450 Huie Road, Lake City, GA 30260</p>	
-            <i class="fas fa-map-marked-alt"></i>	
+          <a href="https://maps.google.com/?q=Ambaji USA - Shree Shakti Mandir &t=m" target="_blank">
+            <p class="text-muted">1450 Huie Road, Lake City, GA 30260</p>
+            <i class="fas fa-map-marked-alt"></i>
           </a>
         </div>
 
@@ -119,9 +121,9 @@
           </a>
           <p class="text-primary font-weight-bold">June 27, 2020 6:00 PM</p>
           <p class="text-muted">Shree Shakti Mandir</p>
-          <a href="https://maps.google.com/?q=Ambaji USA - Shree Shakti Mandir &t=m" target="_blank">	
-            <p class="text-muted">1450 Huie Road, Lake City, GA 30260</p>	
-            <i class="fas fa-map-marked-alt"></i>	
+          <a href="https://maps.google.com/?q=Ambaji USA - Shree Shakti Mandir &t=m" target="_blank">
+            <p class="text-muted">1450 Huie Road, Lake City, GA 30260</p>
+            <i class="fas fa-map-marked-alt"></i>
           </a>
         </div>
 
@@ -135,9 +137,9 @@
           </a>
           <p class="text-primary font-weight-bold">June 28, 2020 10:30 AM</p>
           <p class="text-muted">Decatur Conference Center</p>
-          <a href="https://maps.google.com/?q=Decatur Conferance Center Atlanta &t=m" target="_blank">	
-            <p class="text-muted">130 Clairemont Avenue, Decatur, GA 30030</p>	
-            <i class="fas fa-map-marked-alt"></i>	
+          <a href="https://maps.google.com/?q=Decatur Conferance Center Atlanta &t=m" target="_blank">
+            <p class="text-muted">130 Clairemont Avenue, Decatur, GA 30030</p>
+            <i class="fas fa-map-marked-alt"></i>
           </a>
         </div>
 
@@ -151,9 +153,9 @@
           </a>
           <p class="text-primary font-weight-bold">June 28, 2020 6:00 PM</p>
           <p class="text-muted">Decatur Conference Center</p>
-          <a href="https://maps.google.com/?q=Decatur Conferance Center Atlanta &t=m" target="_blank">	
-            <p class="text-muted">130 Clairemont Avenue, Decatur, GA 30030</p>	
-            <i class="fas fa-map-marked-alt"></i>	
+          <a href="https://maps.google.com/?q=Decatur Conferance Center Atlanta &t=m" target="_blank">
+            <p class="text-muted">130 Clairemont Avenue, Decatur, GA 30030</p>
+            <i class="fas fa-map-marked-alt"></i>
           </a>
         </div>
       </div>
@@ -325,6 +327,13 @@
       <!-- TODO: Add hotel information. -->
       <!-- <p class="text-muted">A: We have a block of rooms at a preferred rate with the INSERT_HOTEL_NAME_HERE. Please book
         by May 30th by visiting the link.</p> -->
+      <h3>Has the wedding being postponed due to the pandemic?</h3>
+
+      <p class="text-muted">A: Yes, we have decided to postpone our wedding due to the recent pandemic. 
+      <a class="event-link" data-toggle="modal" href="#covidModal">
+        For more information, please click here.
+      </a>
+    </p>
     </div>
   </section>
 
@@ -485,6 +494,34 @@
                   <li>Time: 6:00 PM</li>
                   <li>Location: Decatur Conference Center</li>
                 </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- COVID 19 Modal -->
+  <div class="event-modal modal fade" id="covidModal" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+          <div class="lr">
+            <div class="rl"></div>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <div class="modal-body">
+                <h2 class="text-uppercase">Update for our guests</h2>
+                <p>Due to the recent outbreaks of COVID-19, we regret to inform you that we have decided to cancel Jeel and Avani's wedding
+                  which was scheduled for June 27th and 28th, 2020. We have been closely monitoring the situation as the states decide to open
+                  up slowly across the country. However, at this time we do not feel confident enough that we would be able to host an event and also 
+                  ensure the safety of our guests. We apologize for any inconvenience this may cause. We hope to provide an update to you all in the near 
+                  future. Stay safe and healthy!
+                </p>
               </div>
             </div>
           </div>
