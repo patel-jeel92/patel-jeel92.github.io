@@ -32,9 +32,9 @@
   // div#familyEvents{
   //   visibility: hidden;
   // }
-  
-  div#wedding-events{
-    visibility: hidden;
+
+  div#wedding-events {
+    visibility: visible;
   }
   // .event-border {
   //   border:1px solid $primary;
@@ -43,7 +43,7 @@
 }
 // Styling for the services section
 .events-heading {
-  margin: 25px ;
+  margin: 25px;
   padding: 10px;
   text-transform: none;
 }

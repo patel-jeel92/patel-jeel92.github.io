@@ -10,27 +10,27 @@
       cursor: pointer;
     }
 
-  .things-to-do-caption {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 25px;
-    text-align: center;
-    background-color: $white;
-    h4 {
-      margin: 0;
-      text-transform: none;
-    }
-    p {
-      font-size: 16px;
-      font-style: italic;
-      margin: 0;
-      @include serif-font;
-    }
+    .things-to-do-caption {
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 25px;
+      text-align: center;
+      background-color: $white;
+      h4 {
+        margin: 0;
+        text-transform: none;
+      }
+      p {
+        font-size: 16px;
+        font-style: italic;
+        margin: 0;
+        @include serif-font;
+      }
     }
   }
 }
 
-@media(min-width:767px) {
+@media (min-width: 800px) {
   #things-to-do {
     .things-to-do-item {
       margin: 0 0 30px;
