@@ -2,18 +2,18 @@
 header.masthead {
   text-align: center;
   color: $primary;
-  background-image: url('../img/Jeel_Avani_engagement-17.jpg');
+  background-image: url("../img/Jeel_Avani_engagement-17.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
   background-size: cover;
 
   .intro-text {
-     padding-bottom: 40px;
+    padding-bottom: 40px;
     .intro-lead-in {
       font-size: 50px;
       margin-top: 30px;
-      font-family: 'Tangerine';
+      font-family: "Tangerine";
       padding-top: 470px;
     }
     .intro-heading {
@@ -25,7 +25,7 @@ header.masthead {
     }
   }
 }
-@media(min-width:692px) {
+@media (min-width: 692px) {
   header.masthead {
     .intro-text {
       padding-top: 470px;
@@ -33,7 +33,7 @@ header.masthead {
       .intro-lead-in {
         font-size: 100px;
         line-height: 50px;
-        font-family: 'Tangerine';
+        font-family: "Tangerine";
         padding-top: 50px;
       }
       .intro-heading {
@@ -56,7 +56,7 @@ header.masthead {
       .intro-lead-in {
         font-size: 45px;
         line-height: 20px;
-        font-family: 'Tangerine';
+        font-family: "Tangerine";
         padding-top: 50px;
       }
       .intro-heading {
@@ -77,7 +77,7 @@ header.masthead {
       padding-bottom: 20px;
       .intro-lead-in {
         font-size: 90px;
-        font-family: 'Tangerine';
+        font-family: "Tangerine";
       }
       .intro-heading {
         font-size: 25px;
